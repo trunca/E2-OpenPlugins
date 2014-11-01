@@ -10,7 +10,7 @@ def Plugins(**kwargs):
 from Plugins.Plugin import PluginDescriptor
 from Screens.Console import Console
 
-cmd = "/usr/lib/enigma2/python/Plugins/Extensions/Backup-sfteam-USB/backup.sh /media/usb"
+cmd = "/usr/lib/enigma2/python/Plugins/Extensions/PPanel//backup.sh /media/usb"
 
 def main(session, **kwargs):
     	session.open(Console,_("Backup-sfteam-USB"),[cmd])
